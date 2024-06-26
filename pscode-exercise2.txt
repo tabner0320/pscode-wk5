@@ -1,0 +1,42 @@
+#Exercise 1
+
+Print("Enter a number...")
+INPUT(int) = num1
+
+
+Print("Enter another number...")
+INPUT(int) = num2
+
+SUM = num1 + num2
+print("The sum is...", SUM)
+
+
+#Exercise 2
+
+Print("Enter a number...")
+INPUT(int) = num
+
+IF num % 2 == 0 THEN
+	Print(num, "is even..")
+ELSE 
+	Print(num, "is odd..")
+END IF
+
+
+#Exercise 3
+
+numbers = []
+sum = 0
+
+FOR i = 1 TO 5
+	Print("enter number...", i 
+	INPUT(num)
+	add num to numbers
+	sum = sum + num
+END FOR
+
+average = sum / 5
+minimum = MINIMUM(numbers)
+maximum = MAXIMUM(number)
+
+Print(average, minimum, maximum)
